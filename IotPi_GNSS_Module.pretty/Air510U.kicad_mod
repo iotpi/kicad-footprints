@@ -66,8 +66,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -5.225 -6.25)
-		(end 5.225 -6.25)
+		(start -5.05 -4.85)
+		(end -4.8 -4.85)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -76,8 +76,8 @@
 		(uuid "e88dcff0-fbce-4ec1-9683-cd7332b909f4")
 	)
 	(fp_line
-		(start -5.225 5.45)
-		(end -5.225 -6.25)
+		(start -5.05 4.85)
+		(end -5.05 -4.85)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -86,18 +86,38 @@
 		(uuid "1425ebd2-a70c-46c1-b703-96d63d1cabe7")
 	)
 	(fp_line
-		(start -4.425 6.25)
-		(end -5.225 5.45)
+		(start -5.05 4.85)
+		(end -4.8 4.85)
 		(stroke
 			(width 0.12)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "20c7ba31-0aa2-44c5-b747-062ad8c7f9d0")
+		(uuid "87726fb1-81fe-466a-b518-93098301483b")
 	)
 	(fp_line
-		(start 5.225 -6.25)
-		(end 5.225 6.25)
+		(start 4.8 -4.85)
+		(end 5.05 -4.85)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0193873b-1ced-4dd3-9b5d-6d932bdd03fc")
+	)
+	(fp_line
+		(start 4.8 4.825)
+		(end 5.05 4.825)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7046917a-c896-495a-abd4-1ae214a01c08")
+	)
+	(fp_line
+		(start 5.05 -4.85)
+		(end 5.05 4.85)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -105,19 +125,20 @@
 		(layer "F.SilkS")
 		(uuid "b18b2532-58d2-48e0-981c-9e8b8b884888")
 	)
-	(fp_line
-		(start 5.225 6.25)
-		(end -4.425 6.25)
+	(fp_circle
+		(center -5.15 5.575)
+		(end -4.975 5.575)
 		(stroke
 			(width 0.12)
-			(type default)
+			(type solid)
 		)
+		(fill solid)
 		(layer "F.SilkS")
-		(uuid "9eb53c17-18c4-42c6-8379-b9bf0991406a")
+		(uuid "61ee6706-2d8b-4eed-a2ed-0a204e1b516f")
 	)
 	(fp_line
-		(start -4.98 -6)
-		(end 4.98 -6)
+		(start -5.5 -6)
+		(end 5.5 -6)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -126,8 +147,8 @@
 		(uuid "338f9e5c-7ef3-4023-b8ec-d8a2e81b7637")
 	)
 	(fp_line
-		(start -4.98 6)
-		(end -4.98 -6)
+		(start -5.5 6)
+		(end -5.5 -6)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -136,8 +157,8 @@
 		(uuid "e85cb75d-209a-49cb-9097-3352d62c6a73")
 	)
 	(fp_line
-		(start 4.98 -6)
-		(end 4.98 6)
+		(start 5.5 -6)
+		(end 5.5 6)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -146,8 +167,8 @@
 		(uuid "4c1d7e9a-5622-4d84-bfd7-3c29d9bcd325")
 	)
 	(fp_line
-		(start 4.98 6)
-		(end -4.98 6)
+		(start 5.5 6)
+		(end -5.5 6)
 		(stroke
 			(width 0.05)
 			(type default)
