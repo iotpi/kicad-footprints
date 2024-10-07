@@ -110,16 +110,17 @@
 		(layer "F.CrtYd")
 		(uuid "066fcd84-0ac8-4988-acfb-1bc8b58bcc62")
 	)
-	(fp_rect
-		(start -0.45 -0.65)
-		(end 0.45 0.65)
+	(fp_poly
+		(pts
+			(xy -0.45 -0.325) (xy -0.125 -0.65) (xy 0.45 -0.65) (xy 0.45 0.65) (xy -0.45 0.65)
+		)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill none)
 		(layer "F.Fab")
-		(uuid "4bb98842-eeff-4eed-a893-77da8224539c")
+		(uuid "fee020f2-c199-44d1-9218-dd8fe9c02d0d")
 	)
 	(pad "1" smd circle
 		(at -0.2 -0.4 270)
