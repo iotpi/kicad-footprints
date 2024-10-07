@@ -1,4 +1,4 @@
-(footprint "TDFN-8AL-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
+(footprint "TDFN-8AL_1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "TDFN-8AL-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
+	(property "Value" "TDFN-8AL_1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
 		(at -0.05 9.35 0)
 		(unlocked yes)
 		(layer "F.Fab")
