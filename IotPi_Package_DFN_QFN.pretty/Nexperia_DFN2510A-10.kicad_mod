@@ -6,7 +6,7 @@
 	(descr "System-level ESD protection for USB 2.0 and SuperSpeed USB 3.2 at 10 Gbps, HDMI,\nDisplayPort, eSATA and LVDS")
 	(tags "ESD")
 	(property "Reference" "REF**"
-		(at -2.6 0 90)
+		(at 0.185 -3.475 180)
 		(layer "F.SilkS")
 		(uuid "1dcf637f-f610-4669-8b75-29b3f438ab8a")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "Nexperia_DFN2510A-10"
-		(at 0 0 0)
+		(at 0.005 3.005 0)
 		(layer "F.Fab")
 		(uuid "96e90bb0-b41c-4b0c-8af4-c4d263ccc97c")
 		(effects
@@ -28,7 +28,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0 0 0)
+		(at 0.15 0.15 -90)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -36,11 +36,12 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0.15 0.15 -90)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -48,11 +49,12 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at 0.15 0.15 -90)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -60,23 +62,14 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
 	(fp_line
-		(start -1.6 -1.125)
-		(end 1.6 -1.125)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "25ad645b-ebc9-44c2-872a-2cd756ab2cc4")
-	)
-	(fp_line
-		(start -1.6 0.7)
-		(end -1.6 -1.125)
+		(start -0.4 -1.3)
+		(end 0.7 -1.3)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -85,18 +78,8 @@
 		(uuid "86f8ca4e-a422-4990-841d-69eaa148f552")
 	)
 	(fp_line
-		(start -1.2 1.125)
-		(end -1.6 0.7)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "e7f46a81-f8e2-47eb-a965-b75d7e454adc")
-	)
-	(fp_line
-		(start 1.6 -1.125)
-		(end 1.6 1.125)
+		(start 0.7 1.6)
+		(end -0.4 1.6)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -104,121 +87,105 @@
 		(layer "F.SilkS")
 		(uuid "ae4216ce-11b1-4170-a0ee-f5dc9d2fdd85")
 	)
-	(fp_line
-		(start 1.6 1.125)
-		(end -1.2 1.125)
+	(fp_poly
+		(pts
+			(xy -0.69 -1.06) (xy -0.97 -1.06) (xy -0.69 -1.34) (xy -0.69 -1.06)
+		)
 		(stroke
 			(width 0.12)
-			(type default)
+			(type solid)
 		)
+		(fill solid)
 		(layer "F.SilkS")
-		(uuid "2d7b99cd-f08a-4499-aad2-d2e4a7792455")
+		(uuid "86ff1878-65d0-4480-8579-0f52ff7f03cc")
 	)
-	(fp_line
-		(start -1.35 -0.88)
-		(end 1.35 -0.88)
+	(fp_rect
+		(start -0.725 -1.55)
+		(end 1.025 1.85)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
+		(fill none)
 		(layer "F.CrtYd")
-		(uuid "f54f2cf7-e527-4e74-acb5-01df8484e91d")
+		(uuid "2b35604e-a1d4-47d8-a754-cc1b577276e1")
 	)
-	(fp_line
-		(start -1.35 0.88)
-		(end -1.35 -0.88)
+	(fp_rect
+		(start -0.4 -1.1)
+		(end 0.7 1.4)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type default)
 		)
-		(layer "F.CrtYd")
-		(uuid "3b7bff65-aa3b-4fcc-bf6c-633e548f1849")
-	)
-	(fp_line
-		(start 1.35 -0.88)
-		(end 1.35 0.88)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "19b7e704-e2d5-477e-8f53-c2e4efdc0a60")
-	)
-	(fp_line
-		(start 1.35 0.88)
-		(end -1.35 0.88)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "958c26cb-7d65-462f-a4da-1386508eb768")
+		(fill none)
+		(layer "F.Fab")
+		(uuid "dfd08aaa-7f2a-4d09-9562-3036e79e0f59")
 	)
 	(pad "1" smd rect
-		(at -1 -0.3875)
-		(size 0.2 0.475)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(thermal_bridge_angle 45)
-		(uuid "c6cdca1b-fdd3-47f0-b293-c3c27a62d8ba")
-	)
-	(pad "1" smd rect
-		(at -1 0.3875)
+		(at -0.2375 -0.85 270)
 		(size 0.2 0.475)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(thermal_bridge_angle 45)
 		(uuid "a1522b58-e2df-45d1-9a8e-8661f0c48efb")
 	)
-	(pad "2" smd rect
-		(at -0.5 -0.3875)
+	(pad "1" smd rect
+		(at 0.5375 -0.85 270)
 		(size 0.2 0.475)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(thermal_bridge_angle 45)
-		(uuid "2e107b76-9116-4ef9-b50a-edbc612970bd")
+		(uuid "c6cdca1b-fdd3-47f0-b293-c3c27a62d8ba")
 	)
 	(pad "2" smd rect
-		(at -0.5 0.3875)
+		(at -0.2375 -0.35 270)
 		(size 0.2 0.475)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(thermal_bridge_angle 45)
 		(uuid "15c7bd34-124a-4f97-adce-78eb132713ea")
 	)
+	(pad "2" smd rect
+		(at 0.5375 -0.35 270)
+		(size 0.2 0.475)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "2e107b76-9116-4ef9-b50a-edbc612970bd")
+	)
 	(pad "3" smd rect
-		(at 0 0.3875)
+		(at -0.2375 0.15 270)
 		(size 0.2 0.475)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(thermal_bridge_angle 45)
 		(uuid "fd1c3674-4193-4f95-bad5-9ac05e53d635")
 	)
 	(pad "4" smd rect
-		(at 0.5 -0.3875)
-		(size 0.2 0.475)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(thermal_bridge_angle 45)
-		(uuid "1c03d046-8a45-4ace-81ae-305552bc592a")
-	)
-	(pad "4" smd rect
-		(at 0.5 0.3875)
+		(at -0.2375 0.65 270)
 		(size 0.2 0.475)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(thermal_bridge_angle 45)
 		(uuid "d40ad766-f253-48d1-8bc9-735b258f7fe9")
 	)
-	(pad "5" smd rect
-		(at 1 -0.3875)
+	(pad "4" smd rect
+		(at 0.5375 0.65 270)
 		(size 0.2 0.475)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(thermal_bridge_angle 45)
-		(uuid "2c7b2d83-b1be-4d9b-a180-4b7a53e2cffb")
+		(uuid "1c03d046-8a45-4ace-81ae-305552bc592a")
 	)
 	(pad "5" smd rect
-		(at 1 0.3875)
+		(at -0.2375 1.15 270)
 		(size 0.2 0.475)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(thermal_bridge_angle 45)
 		(uuid "b3245a28-20f0-47f9-b0a3-fb9d01ec1560")
 	)
+	(pad "5" smd rect
+		(at 0.5375 1.15 270)
+		(size 0.2 0.475)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "2c7b2d83-b1be-4d9b-a180-4b7a53e2cffb")
+	)
 	(pad "8" smd rect
-		(at 0 -0.3875)
+		(at 0.5375 0.15 270)
 		(size 0.2 0.475)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(thermal_bridge_angle 45)
