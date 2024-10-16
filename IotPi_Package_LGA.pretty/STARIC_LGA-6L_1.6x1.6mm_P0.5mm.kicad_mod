@@ -103,7 +103,7 @@
 		(start -1.05 -1.05)
 		(end 1.05 1.05)
 		(stroke
-			(width 0.12)
+			(width 0.05)
 			(type default)
 		)
 		(fill none)
