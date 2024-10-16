@@ -1,0 +1,119 @@
+(footprint "TestPoint_4Pads_P1.27_1.0x1.0mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.035 -3.815 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3ef49217-5592-410d-a7d5-c07b6dffc007")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TestPoint_4Pads_P1.27_1.0x1.0mm"
+		(at 0 7.075 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e2029283-4af8-4ffb-8596-83dbd8098a66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "228b3f43-3b13-4a50-b166-de7cef355336")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9707bbbd-0b74-4c4e-bc4d-76685791fe19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82a38bbf-a172-4c66-b74a-582550071f09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_bom)
+	(fp_poly
+		(pts
+			(xy -1.9075 0.6875) (xy -2.3675 1.1475) (xy -1.4475 1.1475)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "edf36fb1-e9fb-4aa3-8bf0-aaab8551b3b7")
+	)
+	(fp_rect
+		(start -2.67 -0.755)
+		(end 2.67 0.755)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "a81a8892-2ac5-4d77-b3e7-0afbfe05af6e")
+	)
+	(pad "1" smd roundrect
+		(at -1.905 0)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "e2acf404-0bfd-4b0a-9723-a2b469063607")
+	)
+	(pad "2" smd circle
+		(at -0.635 0)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask")
+		(uuid "c7b3a478-fabd-4eb0-9c2e-3384998da19b")
+	)
+	(pad "3" smd circle
+		(at 0.635 0)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask")
+		(uuid "2b6ebe27-3c8d-4600-999b-ed2390236a2d")
+	)
+	(pad "4" smd circle
+		(at 1.905 0)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask")
+		(uuid "a4d1fd85-8abc-4014-8bf9-85da6a9efbbc")
+	)
+)
