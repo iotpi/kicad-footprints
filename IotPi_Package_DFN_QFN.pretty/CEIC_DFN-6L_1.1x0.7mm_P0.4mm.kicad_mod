@@ -197,7 +197,7 @@
 		(uuid "d7457347-aa35-48d5-82a3-b65f69ad314e")
 	)
 	(pad "4" smd custom
-		(at 0.2 -0.4)
+		(at 0.2 0.4)
 		(size 0.21 0.21)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(thermal_bridge_angle 45)
@@ -206,7 +206,7 @@
 			(anchor rect)
 		)
 		(primitives)
-		(uuid "d78d0899-dff2-4d4d-97cb-6a4a528ce2f8")
+		(uuid "bac2bba9-ffc1-48aa-a158-cd9d10cba647")
 	)
 	(pad "5" smd custom
 		(at 0.2 0)
@@ -221,7 +221,7 @@
 		(uuid "09171977-7839-4577-a7e4-a3a5264562eb")
 	)
 	(pad "6" smd custom
-		(at 0.2 0.4)
+		(at 0.2 -0.4)
 		(size 0.21 0.21)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(thermal_bridge_angle 45)
@@ -230,6 +230,6 @@
 			(anchor rect)
 		)
 		(primitives)
-		(uuid "bac2bba9-ffc1-48aa-a158-cd9d10cba647")
+		(uuid "d78d0899-dff2-4d4d-97cb-6a4a528ce2f8")
 	)
 )
