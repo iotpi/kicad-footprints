@@ -1,14 +1,14 @@
 (footprint "RJ45_HR911130A"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "100/1000Base-T Magnetics Single Port RJ45 Connector with Integrated Magnetics and LED")
 	(property "Reference" "J**"
 		(at 0.2 13.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "6b802f01-b684-4928-8c22-96ce7ee6b094")
+		(uuid "8249cbf4-09b5-492b-b98d-c07b81a05884")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 16.9 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "da5b9721-2a53-4369-8326-8c952739f367")
+		(uuid "cf442a1e-c36d-4323-a666-5fdbe9f00b57")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f0dc9cb1-cd98-42aa-ad17-32d176f4c4d0")
+		(uuid "e407d0ba-1511-4ed2-a9f9-3994a71fcade")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1891d81c-09f8-4e70-beb0-1c2e56c746f3")
+		(uuid "488982c3-c11c-4e99-bb25-86054d3b26b7")
 		(effects
 			(font
 				(size 1 1)
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -8.3 -6.9)
 		(end 8.3 -6.9)
@@ -63,7 +64,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "ac00c1a7-3c56-4d9d-bb0e-335e01570080")
+		(uuid "099d52ba-a489-4f81-a690-574824b8906f")
 	)
 	(fp_line
 		(start -8.3 0.6)
@@ -73,7 +74,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "fe7499a7-b6d0-460b-8628-cb5b944b12d9")
+		(uuid "d6749bfe-5a55-4662-9186-4a3781edfd4c")
 	)
 	(fp_line
 		(start -8.3 4.5)
@@ -83,7 +84,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "4893ee18-2ab1-4d92-8294-329476528f20")
+		(uuid "52bb3ef3-7098-446f-839f-fcb3e942ef92")
 	)
 	(fp_line
 		(start -8.3 10.6)
@@ -93,7 +94,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "247ad34a-5990-4a22-8fee-97405066970e")
+		(uuid "6046b49a-3800-41ef-a244-fd297b908e2d")
 	)
 	(fp_line
 		(start 8.3 -6.9)
@@ -103,7 +104,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "f8d3470d-1652-4e47-bb68-496e34977b7c")
+		(uuid "6b7dc323-e74e-4c67-a4fc-957e85f1461f")
 	)
 	(fp_line
 		(start 8.3 10.6)
@@ -113,7 +114,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "c9993ae1-d717-4b55-a6ed-00996e0917d4")
+		(uuid "413195aa-4161-41be-b7f5-75ce62933239")
 	)
 	(fp_poly
 		(pts
@@ -126,7 +127,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "21ee0214-16eb-4035-939e-4d9697329dd5")
+		(uuid "65e89d1a-6c0c-46a0-b277-748f777dd0df")
 	)
 	(fp_rect
 		(start -8 -10.8)
@@ -137,37 +138,19 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "b7312e20-aa08-4565-9639-ff3695357fe7")
+		(uuid "bcfd1280-9e6d-4432-acce-37625cf90220")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0.1 15.1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "5933ac79-d738-42e5-9f92-912807c7f52e")
+		(uuid "e7f6361f-9519-4c93-afad-25d3c16944df")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
 		)
-	)
-	(pad "" np_thru_hole circle
-		(at -7.745 3.05)
-		(size 1.63 1.63)
-		(drill 1.63)
-		(layers "*.Cu" "*.Mask")
-		(teardrops
-			(best_length_ratio 0.5)
-			(max_length 1)
-			(best_width_ratio 1)
-			(max_width 2)
-			(curved_edges no)
-			(filter_ratio 0.9)
-			(enabled yes)
-			(allow_two_segments yes)
-			(prefer_zone_connections yes)
-		)
-		(uuid "bf0d71f9-1d38-4281-8541-0d80f2318ed3")
 	)
 	(pad "" np_thru_hole circle
 		(at -5.715 0)
@@ -185,7 +168,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "ddaa0429-717c-41ce-bf6b-ccb0f9a7ee80")
+		(uuid "39f31541-a2bb-4293-ab88-125358a23d4f")
 	)
 	(pad "" np_thru_hole circle
 		(at 5.715 0)
@@ -203,25 +186,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "0abcfe57-df8a-4307-a61f-c75587a4ed89")
-	)
-	(pad "" np_thru_hole circle
-		(at 7.745 3.05)
-		(size 1.63 1.63)
-		(drill 1.63)
-		(layers "*.Cu" "*.Mask")
-		(teardrops
-			(best_length_ratio 0.5)
-			(max_length 1)
-			(best_width_ratio 1)
-			(max_width 2)
-			(curved_edges no)
-			(filter_ratio 0.9)
-			(enabled yes)
-			(allow_two_segments yes)
-			(prefer_zone_connections yes)
-		)
-		(uuid "b9cf45d8-d58a-4649-bc8b-32989f6cc1d4")
+		(uuid "555b5689-cbce-460f-aa23-b8f38229c600")
 	)
 	(pad "1" thru_hole circle
 		(at 5.715 8.89)
@@ -241,7 +206,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "9e379111-43e5-483b-b3b3-1a39f6a845f3")
+		(uuid "e65fd379-610e-43ce-b184-58ef108f178b")
 	)
 	(pad "2" thru_hole circle
 		(at 4.445 6.35)
@@ -261,7 +226,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "00a82043-b138-410e-8c60-74247f3d80d2")
+		(uuid "684afc20-082b-4616-a746-e3e2f37df73a")
 	)
 	(pad "3" thru_hole circle
 		(at 3.175 8.89)
@@ -281,7 +246,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "451ea89b-c55e-426f-b441-256a70c64eed")
+		(uuid "02652bf8-3f57-4ddb-a78b-06cc996dec52")
 	)
 	(pad "4" thru_hole circle
 		(at 1.905 6.35)
@@ -301,7 +266,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "ce1e446e-09ab-4851-b55a-d7c388066888")
+		(uuid "a694282b-eced-49b1-a678-f20236867d7b")
 	)
 	(pad "5" thru_hole circle
 		(at 0.635 8.89)
@@ -321,7 +286,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "6b26c1de-717d-420e-9a12-7222765eb8cf")
+		(uuid "7dc27791-3bb5-4942-9643-880165057bf0")
 	)
 	(pad "6" thru_hole circle
 		(at -0.635 6.35)
@@ -341,7 +306,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "6a01b291-8ca3-400f-9319-764a99f66007")
+		(uuid "2a7f8d39-30ed-437b-ad71-dcc61daa9530")
 	)
 	(pad "7" thru_hole circle
 		(at -1.905 8.89)
@@ -361,7 +326,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "3f316d27-69e3-43c7-8b12-d0d05e5c5065")
+		(uuid "2e22eac1-1304-4a05-bd87-56dd116c1266")
 	)
 	(pad "8" thru_hole circle
 		(at -3.175 6.35)
@@ -381,7 +346,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "5bee50dd-bb06-436f-9a22-25cf455c9463")
+		(uuid "f27d103a-0015-45a6-a88d-e3412a575a9c")
 	)
 	(pad "9" thru_hole circle
 		(at -4.445 8.89)
@@ -401,7 +366,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "4587f80b-2004-4273-9ee7-d54d2c1f248e")
+		(uuid "55127ceb-c712-4f25-9976-0d3e1f6b307e")
 	)
 	(pad "10" thru_hole circle
 		(at -5.715 6.35)
@@ -421,7 +386,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "413ead77-e378-4572-ab1f-f74335500d4c")
+		(uuid "05d27ad4-bb16-46a8-a1c2-08c70052da84")
 	)
 	(pad "11" thru_hole circle
 		(at 6.625 -4.9)
@@ -441,7 +406,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "77d530d7-163a-4797-be1c-e4552a820257")
+		(uuid "84b09760-cc76-4933-8119-757a0bf98b21")
 	)
 	(pad "12" thru_hole circle
 		(at 4.085 -4.9)
@@ -461,7 +426,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "77bc7246-476e-4c11-b75e-4b578a8d0a17")
+		(uuid "28dc398d-291f-4e8b-b9d3-d050a871efb9")
 	)
 	(pad "13" thru_hole circle
 		(at -4.085 -4.9)
@@ -481,7 +446,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "70604528-8fdd-48fd-861b-3e07fbbb2c77")
+		(uuid "8a8efc14-d74b-4729-828a-babca08bc15b")
 	)
 	(pad "14" thru_hole circle
 		(at -6.625 -4.9)
@@ -501,7 +466,45 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "bb3fbde7-6a56-429d-9449-5838e590f83f")
+		(uuid "d4eab1a0-ad0c-4c59-9404-b9b29b318891")
+	)
+	(pad "SH" thru_hole circle
+		(at -7.745 3.05)
+		(size 2 2)
+		(drill 1.63)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "a290a280-a019-4108-b174-1b3ac4c31874")
+	)
+	(pad "SH" thru_hole circle
+		(at 7.745 3.05)
+		(size 2 2)
+		(drill 1.63)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "a036a5c6-7e3a-4596-a3f5-c69c43bb988c")
 	)
 	(embedded_fonts no)
 	(embedded_files
